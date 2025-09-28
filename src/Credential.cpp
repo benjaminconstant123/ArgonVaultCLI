@@ -11,4 +11,10 @@ Credential::Credential(std::string username, std::string password)
 }
 Credential::~Credential()
 {
+
+}
+
+void Argon2idHashing(std::string password)
+{
+    int num = 1;
 }
